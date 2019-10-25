@@ -23,6 +23,10 @@ h1 {
                -1px -1px 0 #fff;
 }
 
+.wrapper {
+  position: relative;
+}
+
 p {
   display: inline-block;
   height: 600px;
@@ -41,7 +45,7 @@ button {
   font-size: 20px;
   box-shadow: 4px 4px;
   border-radius: 4px;
-  margin-left: 75px;
+  margin-left: 120px;
 }
 
 button:hover {
@@ -52,3 +56,4 @@ button:active {
   transform: translateY(4px);
   border-bottom: none;
 }
+
